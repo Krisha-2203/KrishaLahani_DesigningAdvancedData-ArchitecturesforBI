@@ -1,0 +1,657 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Air_Traffic_Landings_Statistics_20250919.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Activity Period" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Activity Period Start Date" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Operating Airline" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Operating Airline IATA Code" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Published Airline" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Published Airline IATA Code" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="GEO Summary" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="GEO Region" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Landing Aircraft Type" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Body Type" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Manufacturer" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Model" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Version" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Landing Count" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Total Landed Weight" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="data_as_of" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="data_loaded_at" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="258" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Activity Period=True,Activity Period Start Date=True,Operating Airline=True,Operating Airline IATA Code=True,Published Airline=True,Published Airline IATA Code=True,GEO Summary=True,GEO Region=True,Landing Aircraft Type=True,Aircraft Body Type=True,Aircraft Manufacturer=True,Aircraft Model=True,Aircraft Version=True,Landing Count=True,Total Landed Weight=True,data_as_of=True,data_loaded_at=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_865bb2e657754105aea377304da5aaeb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_538f3f3708c44773989d6a3eae83ae21~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_2b916c6265304db3b0dc1819a977f7a9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse(ToString([Activity Period],0) + &quot;01&quot;, &quot;%Y%m%d&quot;)" field="Activity_Period_Date" size="10" type="Date" enabled="true" />
+            <FormulaField expression="DateTimeAdd(DateTimeParse([data_as_of], &quot;%Y/%m/%d %I:%M:%S %p&quot;), 8, 'hours')&#xA;" field="data_as_of" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="DateTimeAdd(DateTimeParse([data_loaded_at], &quot;%Y/%m/%d %I:%M:%S %p&quot;), 8, 'hours')&#xA;" field="data_loaded_at" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="GetEnvironmentVariable(&quot;USERNAME&quot;)" field="DI_Created_By" size="64" type="String" enabled="true" />
+            <FormulaField expression="DateTimeToUTC(DateTimeNow())&#xA;" field="DI_Created_Dt" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Activity_Period_Date = DateTimeParse(ToString([Activity Period],0) + "01", "%Y%m...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_eac78b3d09c04c8c9b4dc53244063184~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Activity Period" selected="True" />
+            <Field field="Activity Period Start Date" selected="True" />
+            <Field field="Operating Airline" selected="True" />
+            <Field field="Operating Airline IATA Code" selected="True" />
+            <Field field="Published Airline" selected="True" />
+            <Field field="Published Airline IATA Code" selected="True" />
+            <Field field="GEO Summary" selected="True" />
+            <Field field="GEO Region" selected="True" />
+            <Field field="Landing Aircraft Type" selected="True" />
+            <Field field="Aircraft Body Type" selected="True" />
+            <Field field="Aircraft Manufacturer" selected="True" />
+            <Field field="Aircraft Model" selected="True" />
+            <Field field="Aircraft Version" selected="True" />
+            <Field field="Landing Count" selected="True" />
+            <Field field="Total Landed Weight" selected="True" />
+            <Field field="data_as_of" selected="True" />
+            <Field field="data_loaded_at" selected="True" />
+            <Field field="DI_Created_By" selected="True" />
+            <Field field="DI_Created_Dt" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Activity Period" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="Int32" />
+            <Field name="Activity Period Start Date" size="10" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Operating Airline" size="40" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Operating Airline IATA Code" size="3" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Published Airline" size="40" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Published Airline IATA Code" size="3" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="GEO Summary" size="13" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="GEO Region" size="19" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Landing Aircraft Type" size="9" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Aircraft Body Type" size="12" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Aircraft Manufacturer" size="17" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Model" size="9" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="V_String" />
+            <Field name="Aircraft Version" size="6" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Landing Count" size="5" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="Total Landed Weight" size="11" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\Air_Traffic_Landings_Statistics_20250919.csv" type="String" />
+            <Field name="data_as_of" size="19" source="Formula: DateTimeAdd(DateTimeParse([data_as_of], &quot;%Y/%m/%d %I:%M:%S %p&quot;), 8, 'hours')&#xA;" type="DateTime" />
+            <Field name="data_loaded_at" size="19" source="Formula: DateTimeAdd(DateTimeParse([data_loaded_at], &quot;%Y/%m/%d %I:%M:%S %p&quot;), 8, 'hours')&#xA;" type="DateTime" />
+            <Field name="Activity_Period_Date" source="Formula: DateTimeParse(ToString([Activity Period],0) + &quot;01&quot;, &quot;%Y%m%d&quot;)" type="Date" />
+            <Field name="DI_Created_By" size="5" source="Formula: GetEnvironmentVariable(&quot;USERNAME&quot;)" type="String" />
+            <Field name="DI_Created_Dt" size="19" source="Formula: DateTimeToUTC(DateTimeNow())&#xA;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="186" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>data_as_of</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy-MM-dd hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert data_as_of From:
+yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="54" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Sequence_Number</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_de921900f691497ca43c1409e304317d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="582" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\KrishaLakhani_Assignment2_Cleaned.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>KrishaLakhani_Assignment2_Cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Activity Period" selected="True" rename="Activity_Period" />
+            <SelectField field="Activity Period Start Date" selected="True" rename="Activity_Period_Start_Date" />
+            <SelectField field="Operating Airline" selected="True" rename="Operating_Airline" />
+            <SelectField field="Operating Airline IATA Code" selected="True" rename="Operating_Airline_IATA_Code" />
+            <SelectField field="Published Airline" selected="True" rename="Published_Airline" />
+            <SelectField field="Published Airline IATA Code" selected="True" rename="Published_Airline_IATA_Code" />
+            <SelectField field="GEO Summary" selected="True" rename="GEO_Summary" />
+            <SelectField field="GEO Region" selected="True" rename="GEO_Region" />
+            <SelectField field="Landing Aircraft Type" selected="True" rename="Landing_Aircraft_Type" />
+            <SelectField field="Aircraft Body Type" selected="True" rename="Aircraft_Body_Type" />
+            <SelectField field="Aircraft Manufacturer" selected="True" rename="Aircraft_Manufacturer" />
+            <SelectField field="Aircraft Model" selected="True" rename="Aircraft_Model" />
+            <SelectField field="Aircraft Version" selected="True" rename="Aircraft_Version" />
+            <SelectField field="Landing Count" selected="True" rename="Landing_Count" />
+            <SelectField field="Total Landed Weight" selected="True" rename="Total_Landed_Weight" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="558" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[(
+  ToString([GEO_Summary]) IN ("Domestic","International")
+)
+AND
+(
+  ToString([GEO_Region]) IN (
+    "US","Africa","Asia","Australia/Oceania","Canada","Caribbean",
+    "Central America","Europe","Mexico","Middle East","South America"
+  )
+)
+AND
+(
+  ToString([Landing_Aircraft_Type]) IN ("Passenger","Freighter","Combi")
+)
+AND
+(
+  ToString([Aircraft_Body_Type]) IN ("Wide Body","Narrow Body","Regional Jet","Turbo Prop")
+)
+AND
+(
+  ToString([Aircraft_Manufacturer]) IN (
+    "Boeing","Airbus","Antonov","McDonnell Douglas","Embraer","Bombardier",
+    "ATR","BAE-Avro","Beechcraft","Cessna","Convair","DeHavilland","Dessault-Falcon",
+    "Dornier","Fairchild","Fokker","IAI","Ilyushin","LearJet","Lockheed","Mitsubishi",
+    "Piper","SAAB","Shorts","Swearingen"
+  )
+)
+AND
+(
+  // Activity_Period numeric validation
+  NOT IsNull([Activity_Period])
+  AND ToNumber([Activity_Period]) >= 200507
+  AND Between(Mod(ToNumber([Activity_Period]), 100), 1, 12)
+)
+AND
+(
+  // Fact fields non-negative (cast just in case)
+  ToNumber([Landing_Count]) >= 0
+  AND ToNumber([Total_Landed_Weight]) >= 0
+)
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(
+  ToString([GEO_Summary]) IN ("Domestic","International")
+)
+AND
+(
+  ToString([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="690" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment2\KrishaLakhani_Assignment2_Filtered.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>KrishaLakhani_Assignment2_Filtered.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_13436_c687d05658ac48e3ae4c37db2e235662_\Engine_13436_fe9165e927794853af712238aa6003ca~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="False" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>KrishaLakhani_DADABI_Assignment2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ab16f722-97f4-4310-9095-7c324359dbc3" />
+      <Telemetry>
+        <PreviousWorkflowId value="bd832579-d305-41bf-a607-fb076f975381" />
+        <OriginWorkflowId value="bd832579-d305-41bf-a607-fb076f975381" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
