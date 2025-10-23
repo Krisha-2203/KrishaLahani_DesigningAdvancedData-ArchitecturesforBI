@@ -1,0 +1,12 @@
+CREATE LOGIN fall2025
+ WITH PASSWORD = 'DemoSessions2025#' 
+GO
+
+CREATE USER fall2025
+    FROM LOGIN fall2025
+GO
+
+
+ALTER ROLE db_owner 
+    ADD MEMBER fall2025
+GO
